@@ -2,14 +2,14 @@
 int main()
 {
     int i,n,a[10];
-    printf("Enter the size of array= ");
+    printf("Enter the size of array=  \n");
     scanf("%d",&n);
     printf("Enter the elements:");
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
     }
-    printf("The array elements are: ");
+    printf("The array elements are: \n");
     for(i=0;i<n;i++)
     {
         printf("%d ",a[i]);
